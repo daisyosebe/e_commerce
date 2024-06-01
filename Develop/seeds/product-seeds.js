@@ -33,6 +33,13 @@ const productData = [
   },
 ];
 
-const seedProducts = () => Product.bulkCreate(productData);
+const seedProducts = async () => {
+  try {
+    await Product.bulkCreate(productData);
+    console.log('Products seeded successfully');
+  } catch (err) {
+    console.error('Error seeding products:', err);
+  }
+};
 
 module.exports = seedProducts;

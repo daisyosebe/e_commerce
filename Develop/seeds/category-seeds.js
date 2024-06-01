@@ -18,6 +18,13 @@ const categoryData = [
   },
 ];
 
-const seedCategories = () => Category.bulkCreate(categoryData);
+const seedCategories = async () => {
+  try {
+    await Category.bulkCreate(categoryData);
+    console.log('Categories seeded successfully');
+  } catch (err) {
+    console.error('Error seeding categories:', err);
+  }
+};
 
 module.exports = seedCategories;
