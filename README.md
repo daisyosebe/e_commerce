@@ -51,7 +51,8 @@ To initialize the table:
 
 Seed the database from the command line.
 > * npm seed
-> Start the application’s server
+
+Start the application’s server
 > * node server.js
 >
 
