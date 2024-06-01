@@ -51,7 +51,7 @@ To initialize the table:
 
 Seed the database from the command line.
 > * npm seed
-Start the application’s server
+> Start the application’s server
 > * node server.js
 >
 
@@ -68,6 +68,7 @@ Start the application’s server
 
 ## GitHub Repo/Videos
 GitHub Repo: (https://github.com/daisyosebe/e_commerce.git)
+
 VIDEO: https://drive.google.com/file/d/1B236qVrSfwt9KjzLfsxCyARq9PgsODM2/view?usp=sharing
 
 
